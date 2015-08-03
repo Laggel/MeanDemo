@@ -1,0 +1,11 @@
+{
+  "name": "demo1",
+  "version": "0.0.0",
+  "description": "A demo app.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Caleb De La Cruz",
+  "dependencies": {
+    "express": "~3.2.4"    
+  }
+}
