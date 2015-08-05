@@ -81,3 +81,38 @@ body {
     border-bottom: 0;
   }
 }
+
+
+
+/* Directive */
+
+
+.dropdown ul {
+  background: #ffffff;
+  padding: 4px 0;
+  border: 1px solid #bec0c1;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  display: none;
+  list-style: none;
+  z-index: 9001;
+}
+
+.dropdown ul li {
+  line-height: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.dropdown ul li:hover, .dropdown ul li.preSelected:hover{
+  background: #000000;
+  color: #ffffff;
+}
+
+.dropdown.dropdown-active ul {
+  display: block;
+}
+
+.dropdown ul li.preSelected {
+  background-color: #ECECEC;
+}

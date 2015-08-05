@@ -1,0 +1,14 @@
+<div id="temp" class="dropdown">
+  <input type="text" 
+         ng-model="temp" 
+         ng-keydown="writting($event)"
+         ng-keyup="written(temp)"
+         />
+
+  <ul>
+      <li ng-repeat="value in values" ng-click="setModel(value)" ng-class="{preSelected: $index == preSelected}">
+        {{value[config.displayProperty]}}
+      </li>
+  </ul>
+
+</div>
